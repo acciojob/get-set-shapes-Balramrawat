@@ -19,7 +19,7 @@ class Rectangle {
 	}
 }
 
-class Square extends Animal {
+class Square extends Rectangle {
 	constructor(side){
 		if(side<=0){
 			throw new error("side are positive...")
