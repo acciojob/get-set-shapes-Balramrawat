@@ -36,3 +36,14 @@ class Square extends Animals {
 window.Rectangle = Rectangle;
 window.Square = Square;
 
+const rectangle = new Rectangle(5, 10);
+console.log(rectangle.width); 
+console.log(rectangle.height); 
+console.log(rectangle.getArea()); 
+
+const square = new Square(7);
+console.log(square.width); 
+console.log(square.height); 
+console.log(square.getArea()); 
+console.log(square.getPerimeter()); 
+
