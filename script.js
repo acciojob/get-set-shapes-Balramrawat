@@ -1,9 +1,9 @@
 //complete this code
 class Rectangle {
 	constructor(width,height){
-		if(width<=0 || height<=0){
-			throw new error("heigth and width are positive...")
-		}
+		// if(width<=0 || height<=0){
+		// 	throw new error("heigth and width are positive...")
+		// }
 		this._width=width;
 		this._height=height;
 	}
@@ -19,11 +19,11 @@ class Rectangle {
 	}
 
 
-class Square extends Animals {
+class Square extends Rectangle {
 	constructor(side){
-		if(side<=0){
-			throw new error("side are positive...")
-		}
+		// if(side<=0){
+		// 	throw new error("side are positive...")
+		// }
 
 		super(side,side)
 	}
