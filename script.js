@@ -3,7 +3,7 @@ class Rectangle {
 	constructor(width,height){
 		this.width=width;
 		this.heigth=height;
-		if(width<=0 || heigth<=0){
+		if(width<=0 || height<=0){
 			throw new error("heigth and width are positive...")
 		}
 
@@ -11,10 +11,10 @@ class Rectangle {
 			return this.width;
 		}
 		get heigth(){
-			return this.heigth;
+			return this.height;
 		}
-		getarea(){
-			return this.width * this.heigth
+		getArea(){
+			return this.width * this.height
 		}
 	}
 }
